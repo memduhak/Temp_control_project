@@ -12,7 +12,7 @@ else
     heaterState = "Kapalı"; % Isıtıcı kapalı
 end
 
-hysteresis = 2; % Histerezis aralığı
+hysteresis = 2; 
 
 % Eğer sıcaklık eşik değerden düşükse ısıtıcıyı aç
 if tempData < (setPoint - hysteresis)
